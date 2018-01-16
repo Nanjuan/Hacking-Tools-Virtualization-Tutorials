@@ -13,15 +13,15 @@
 
 ### You kali machine should look like this on full screen 
 
-[Imgur](https://i.imgur.com/kxStoxI.png)
+![Imgur](https://i.imgur.com/kxStoxI.png)
 
-[Imgur](https://i.imgur.com/mpjvCwF.png)
+![Imgur](https://i.imgur.com/mpjvCwF.png)
 
 ## Fourth Step
 
 ### On the top setting bar of the kali vm go to devices and press (Insert Guest Additional CD image) you should see a message like bellow.
 
-[Imgur](https://i.imgur.com/ImpKx5g.png)
+![Imgur](https://i.imgur.com/ImpKx5g.png)
 
 ### Then press run you should see a error message saying Oops! ect that normal press ok and move to next step. 
 
@@ -29,11 +29,11 @@
 
 ### Right click on the cd and click where it say (Open in Terminal) like bellow.
 
-[Imgur](https://i.imgur.com/s2BabYL.png)
+![Imgur](https://i.imgur.com/s2BabYL.png)
 
 ### The window that open should look like this. 
 
-[Imgur](https://i.imgur.com/oNnuQTT.png)
+![Imgur](https://i.imgur.com/oNnuQTT.png)
 
 ## Six Step 
 
@@ -42,7 +42,7 @@
 
 ### you should see a message like bellow make sure it say (currently not setup to build kernel module). 
 
-[Imgur](https://i.imgur.com/Kxf2TOe.png)
+![Imgur](https://i.imgur.com/Kxf2TOe.png)
 
 ## Seven Step
 
@@ -52,18 +52,18 @@
 ### You trying to find a like that look like this on the top of the list you verstion may change depending on the version of Kali you have install.
 - linux-headers-4.14.0-kali3-amd
 
-[Imgur](https://i.imgur.com/Vt05KYN.png)
+![Imgur](https://i.imgur.com/Vt05KYN.png)
 
 ### Then copy that line you going to use it to install the package. 
 
 ### Then run teh fallowing like of code 
 - apt-get install linux-headers-4.14.0-kali3-amd
 
-[Imgur](https://i.imgur.com/WNUYzpv.png)
+![Imgur](https://i.imgur.com/WNUYzpv.png)
 
 ### Press Y if it ask you to install then wait to be done it should look simmilar to this when is done installing that file. 
 
-[Imgur](https://i.imgur.com/WbFjwWQ.png)
+![Imgur](https://i.imgur.com/WbFjwWQ.png)
 
 ## Eighth Step
 
@@ -73,14 +73,14 @@
 ### Then look for the file name like bellow version may change make sure it match with the one bellow.
 -linux-image-4.14.0-kali3-amd64
 
-[Imgur](https://i.imgur.com/1wcLnTr.png)
+![Imgur](https://i.imgur.com/1wcLnTr.png)
 
 ### Then run teh fallowing like of code 
 - apt-get install linux-image-4.14.0-kali3-amd64
 
 ### Press Y if it ask you to install then wait this part can take a while to be done it should look simmilar to this when is done installing that file. 
 
-[Imgur](https://i.imgur.com/XME0utg.png)
+![Imgur](https://i.imgur.com/XME0utg.png)
 
 ## Final Step 
 
@@ -89,7 +89,7 @@
 
 ### Next time the computer reboot you should see the VM going into full screen when you make it full screen and use the right resolution like bellow my computer native resolution is (1440 x 900) yours will be diferent.
 
-[Imgur](https://i.imgur.com/cWM3eOk.png)
+![Imgur](https://i.imgur.com/cWM3eOk.png)
 
 ## Your done if you have any problem please email me at or ask me in class. 
 - Email: Nestor@nntorres.com
