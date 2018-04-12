@@ -124,4 +124,4 @@ This tutorial is for you to be able to install and setup VirtualBox on a Windows
 ![Section3](/assets/16.png)
 
 
-## Well your done!!!! any question email me!!!!! Any feet back email me!!!! Any spelling error sorry and email me!!!! Thanks!!!!!
+## Well your done!!!! any question email me!!!!! Any feedback email me!!!! Any spelling error sorry and email me!!!! Thanks!!!!!
