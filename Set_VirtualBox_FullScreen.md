@@ -1,95 +1,96 @@
-#  This is a quick tutorial on how to setup full screen on your virtual box when using Kali. (maybe on other linux distro will work but I have not tested yet.)
+#  This is a quick tutorial on how to setup full screen on your virtual box when using Kali.
+### (This *might* work on other linux distros as well but I've only tested this on Kali Linux.)
 
-## First step 
+## Step One 
 
-### Make sure you have VirtualBox install and the Extension packs which you can get from 
-- https://www.virtualbox.org/wiki/Downloads
+### Make sure you have VirtualBox AND the Extension packs installed which you can get from 
+- [https://www.virtualbox.org/wiki/Downloads](https://www.virtualbox.org/wiki/Downloads)
 
-## Second step 
+## Step Two 
 
-### Make sure you have kali fully install and running 
+### Make sure you have Kali fully install and running.
 
-## Third step 
+## Step Three 
 
-### You kali machine should look like this on full screen 
+### Your Kali machine should look like this on full screen. 
 
 ![Imgur](https://i.imgur.com/kxStoxI.png)
 
 ![Imgur](https://i.imgur.com/mpjvCwF.png)
 
-## Fourth Step
+## Step Four
 
-### On the top setting bar of the kali vm go to devices and press (Insert Guest Additional CD image) you should see a message like bellow.
+### On the top setting bar of the Kali vm go to devices and press (Insert Guest Additional CD image) you should see a message like below.
 
 ![Imgur](https://i.imgur.com/ImpKx5g.png)
 
-### Then press run you should see a error message saying Oops! ect that normal press ok and move to next step. 
+### Then press run. You should see a error message saying Oops! ect that's normal. Press ok and move to next step. 
 
-## Fifth Step 
+## Step Five
 
-### Right click on the cd and click where it say (Open in Terminal) like bellow.
+### Right-click on the cd and click where it says (Open in Terminal) like below.
 
 ![Imgur](https://i.imgur.com/s2BabYL.png)
 
-### The window that open should look like this. 
+### The window that opens should look like this. 
 
 ![Imgur](https://i.imgur.com/oNnuQTT.png)
 
-## Six Step 
+## Step Six 
 
-### Run the fallowing like of code 
-- sh ./VBoxLinuxAdditions.run
+### Run the following line of code: 
+> sh ./VBoxLinuxAdditions.run
 
-### you should see a message like bellow make sure it say (currently not setup to build kernel module). 
+### You should see a message like below. Make *sure* it says "currently not setup to build kernel module". 
 
 ![Imgur](https://i.imgur.com/Kxf2TOe.png)
 
-## Seven Step
+## Step Seven
 
-### Run the fallowing like of code
- apt-cache search linux-headers
+### Run the following line of code:
+> apt-cache search linux-headers
 
-### You trying to find a like that look like this on the top of the list you verstion may change depending on the version of Kali you have install.
-- linux-headers-4.14.0-kali3-amd
+### You are trying to find a line that looks like this line on the top of the list. Your specific version may be different than what I am showing here, depending on the *version* of Kali you have installed. The important thing is that the linux-header version number *matches* the version number of the Kali you have installed on the VM.
+> linux-headers-4.14.0-Kali3-amd
 
 ![Imgur](https://i.imgur.com/Vt05KYN.png)
 
-### Then copy that line you going to use it to install the package. 
+### Then copy that line you find that matches. You are going to use it to install the package. 
 
-### Then run teh fallowing like of code 
-- apt-get install linux-headers-4.14.0-kali3-amd
+### Then run the following line of code: 
+> apt-get install linux-headers-4.14.0-Kali3-amd
 
 ![Imgur](https://i.imgur.com/WNUYzpv.png)
 
-### Press Y if it ask you to install then wait to be done it should look simmilar to this when is done installing that file. 
+### Press Y if it asks you to install then wait for it to be done. It should look similar to this when it is done installing that file
 
 ![Imgur](https://i.imgur.com/WbFjwWQ.png)
 
-## Eighth Step
+## Step Eight
 
-### Run the fallowing like of code
-- apt-cache search linux-image
+### Run the following line of code:
+> apt-cache search linux-image
 
-### Then look for the file name like bellow version may change make sure it match with the one bellow.
--linux-image-4.14.0-kali3-amd64
+### Then look for the file name like below. The version number may change. Make sure it matches with the one below.
+>linux-image-4.14.0-Kali3-amd64
 
 ![Imgur](https://i.imgur.com/1wcLnTr.png)
 
-### Then run teh fallowing like of code 
-- apt-get install linux-image-4.14.0-kali3-amd64
+### Then run the following line of code: 
+> apt-get install linux-image-4.14.0-Kali3-amd64
 
-### Press Y if it ask you to install then wait this part can take a while to be done it should look simmilar to this when is done installing that file. 
+### Press Y if it asks you to install. Then wait, this part can take a while to complete. It should look similar to this when it is done installing that header file. 
 
 ![Imgur](https://i.imgur.com/XME0utg.png)
 
 ## Final Step 
 
-### Run the fallowing like of code
-- reboot 
+### Run the following line of code:
+> reboot 
 
-### Next time the computer reboot you should see the VM going into full screen when you make it full screen and use the right resolution like bellow my computer native resolution is (1440 x 900) yours will be diferent.
+### Next time the computer reboots you should see the VM going into full screen when you make it full screen and use the correct resolution like below. My computer's native resolution is (1440 x 900) yours may be different.
 
 ![Imgur](https://i.imgur.com/cWM3eOk.png)
 
-## Your done if you have any problem please email me at or ask me in class. 
+## You're done! If you have any problems please email me at or ask me in class. 
 - Email: Nestor@nntorres.com
