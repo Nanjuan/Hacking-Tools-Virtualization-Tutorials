@@ -42,7 +42,7 @@ This tutorial is for you to be able to install and setup VirtualBox on a Windows
 - After selecting `Task Manager` select `Performance`
 - This will let you know if your computer have `Virtualization`
 - Look at the bottom left for `Virtualization` to see if is `Enabled` or `Disable`
-- If `Virtualization` is diable go to google and search for your manufacture `bios` key to enter bios at bootup and how to enable `Virtualization`
+- If `Virtualization` is `disable` go to google and search for your manufacture `bios` key to enter bios at bootup and how to enable `Virtualization`
 - You will get a error like bellow if your `virtualization` is `disable` and you try to install `VirtualBox`. 
 
 ![Section1](/assets/2-1.png)
