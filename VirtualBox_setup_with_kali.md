@@ -5,7 +5,7 @@ Author: N̷̘̩̠͙̬̫̉͑̉͘͜ą̶͓̳͍̙̻̱̎̓̄̈́́́̈̒̀̐͘̕͝͝n�
 ---
 
 ### Contact
-- [LinkedIn](https://www.linkedin.com/in/nestor-n-torres-737172a5/)
+- [LinkedIn](https://www.linkedin.com/in/nanjuan/)
 - Email: nestor@nntorres.com
 
 ### Table
