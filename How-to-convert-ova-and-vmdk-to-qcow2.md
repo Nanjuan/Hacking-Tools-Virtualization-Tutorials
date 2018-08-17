@@ -60,7 +60,6 @@ This tutorial is for you to be able to convert ova and vmdk virtual machines to 
 2. First step is to export the machine you want to convert to either 
 
 <br>
-
 | VM Formats to conversts |
 |:-----------------------:|
 |        vm.ova           |
@@ -112,6 +111,6 @@ This tutorial is for you to be able to convert ova and vmdk virtual machines to 
 
 #                                        And your done!!!
 
-## Now you can import this new VM.qcow2 to any KVM Hypervisor in this case Antsle box and the VM will be read and write and not only read. 
+## Now you can import this new VM.qcow2 to any KVM Hypervisor like Antsle box and the VM will be read and write and not only read. 
 
 ## Well your done!!!! any question email me!!!!! Any feedback email me!!!! Any spelling error sorry and email me!!!! Thanks!!!!!
