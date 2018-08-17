@@ -51,7 +51,7 @@ This tutorial is for you to be able to convert ova and vmdk virtual machines to 
 - Then go to `storage` and make sure is `empty` like the picture bellow. 
 - Here as long as you `did not change` the `display setting` that should be ok if you did set to `default` again.
 
-![Section1](/assets/qcow2-2.png)
+![Section1](/assets/qcow2-2.PNG)
 
 
 
@@ -89,9 +89,9 @@ This tutorial is for you to be able to convert ova and vmdk virtual machines to 
 - This might take a `while` to `decompress` depending on the `side` of the `vm`. 
 - This will give you the `.ovf` `.mf` `.vmdk` that you need to convert now you can move to `section 2`
 
-![Section4](/assets/qcow2-3.png)
+![Section4](/assets/qcow2-3.PNG)
 
-![Section4](/assets/qcow2-4.png)
+![Section4](/assets/qcow2-4.PNG)
 
 ## Section 2 <a id="Five"></a>
 
@@ -100,14 +100,14 @@ This tutorial is for you to be able to convert ova and vmdk virtual machines to 
 - First step when you have the `VM.vmdk`  is to run the `qemu-img` command to convert from `.vmdk` to `.qcom2`
 - Open terminal and `navigate to the folder` that have the `VM.vmdk` you want to `convert`. 
 
-![Section5](/assets/qcow2-5.png)
+![Section5](/assets/qcow2-5.PNG)
 
 - Then run the command `qemu-img convert -O qcow2 inputVM.vmdk outputVM.qcow2`. 
 - This `will take some time depending on the size of the VM` and `computer processing power`. 
 
-![Section5](/assets/qcow2-6.png)
+![Section5](/assets/qcow2-6.PNG)
 
-![Section5](/assets/qcow2-7.png)
+![Section5](/assets/qcow2-7.PNG)
 
 
 # And your done!!!
