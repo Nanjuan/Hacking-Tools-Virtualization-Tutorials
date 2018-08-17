@@ -58,8 +58,8 @@ This tutorial is for you to be able to convert ova and vmdk virtual machines to 
 ## Start the Conversion on a linux (Ubuntu,Kali,Other) Terminal <a id="Second"></a>
 
 2. First step is to export the machine you want to convert to either 
-
 <br>
+
 | VM Formats to conversts |
 |:-----------------------:|
 |        vm.ova           |
