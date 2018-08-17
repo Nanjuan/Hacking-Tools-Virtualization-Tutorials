@@ -108,8 +108,8 @@ This tutorial is for you to be able to convert ova and vmdk virtual machines to 
 
 ![Section5](/assets/qcow2-7.PNG)
 
-
-#                                        And your done!!!
+:----:
+# And your done!!!
 
 ## Now you can import this new VM.qcow2 to any KVM Hypervisor like Antsle box and the VM will be read and write and not only read. 
 
